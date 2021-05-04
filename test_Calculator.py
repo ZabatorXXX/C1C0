@@ -2,6 +2,7 @@ from Calculator import Calc
 
 
 class TestCalc:
+
     def test_add(self):
         assert 6 == Calc.add(6, 0)
         assert 16 == Calc.add(6, 10)
