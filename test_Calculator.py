@@ -16,7 +16,7 @@ class TestCalc:
     def test_multiply(self):
         assert 31 == Calc.multiply(31, 1)
         assert 27 == Calc.multiply(9, 3)
-        assert 73 == Calc.multiply(6, 9)
+        assert 54 == Calc.multiply(6, 9)
 
     def test_divide(self):
         assert 1 == Calc.divide(69, 69)
