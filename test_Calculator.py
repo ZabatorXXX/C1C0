@@ -3,10 +3,10 @@ from Calculator import Calc
 
 class TestCalc:
 
-    def test_add(self):
-        assert 6 == Calc.add(6, 0)
-        assert 16 == Calc.add(6, 10)
-        assert 9 == Calc.add(3, 6)
+    def test_addition(self):
+        assert 6 == Calc.addition(6, 0)
+        assert 16 == Calc.addition(6, 10)
+        assert 9 == Calc.addition(3, 6)
 
     def test_subtract(self):
         assert 69 == Calc.subtract(100, 31)

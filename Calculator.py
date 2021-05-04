@@ -1,12 +1,12 @@
 class Calc:
-    def add(x, y):
+    def addition(x, y):
         return x + y
 
     def subtract(x, y):
         return x - y
 
-    def multi(x, y):
+    def multiply(x, y):
         return x * y
 
-    def div(x, y):
+    def divide(x, y):
         return x / y
