@@ -2,7 +2,7 @@ result = []
 
 
 class Calc:
-# Adds two numbers
+    # Adds two numbers
     def add(x, y):
         return x + y
 
