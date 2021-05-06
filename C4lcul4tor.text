@@ -6,15 +6,15 @@ class Calc:
     def add(x, y):
         return x + y
 
-# Subtract two numbers
+Subtract two numbers
     def subtract(x, y):
         return x - y
 
-# Multiplie two numbers
+Multiplie two numbers
     def multiply(x, y):
         return x * y
 
-# Divide two numbers
+Divide two numbers
     def divide(x, y):
         return x / y
 
