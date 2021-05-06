@@ -33,7 +33,7 @@ while True:
         num2 = float(input("Enter second number: "))
 
         if choice == '1':
-            x = add(num1, num2)
+            x = addition(num1, num2)
             result.append(x)
             print(num1, "+", num2, "=", x)
 
